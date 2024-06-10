@@ -41,7 +41,7 @@ class AddCartViewset(viewsets.ModelViewSet):
         return Response({
             'status': 'success',
             'message': 'Product removed from your cart list'
-        }, status=status.HTTP_204_NO_CONTENT)
+        }, status=status.HTTP_204_NO_CONTENT, headers=headers)
 
     def get_queryset(self):
         queryset = super().get_queryset()
