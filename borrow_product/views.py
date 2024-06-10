@@ -34,6 +34,14 @@ class AddCartViewset(viewsets.ModelViewSet):
             'message': 'Product Added to Your Cart List',
             'data': serializer.data
         }, status=status.HTTP_201_CREATED, headers=headers)
+    
+    def destroy(self, request, *args, **kwargs):
+        instance = self.get_object()
+        self.perform_destroy(instance)
+        return Response({
+            'status': 'success',
+            'message': 'Product removed from your cart list'
+        }, status=status.HTTP_204_NO_CONTENT)
 
     def get_queryset(self):
         queryset = super().get_queryset()
