@@ -1,6 +1,5 @@
 # Chaka (Car Selling Website)
-
-I meticulously designed and implemented a suite of car buying functionalities, enabling users to effortlessly browse, select, and purchase vehicles with confidence. The database architecture I crafted is both scalable and efficient, underpinning the site's performance with a solid data management foundation.
+ A robust and scalable backend system powering an innovative car selling platform. Developed using the powerful Django framework and Django REST Framework (DRF), this backend is designed to handle complex data interactions and provide seamless API endpoints for the frontend. With SQLite as the database engine, it ensures fast, reliable, and secure transactions. Whether it's managing car inventories, processing user queries, or handling sales transactions, CarHub's backend stands at the core of a smooth and efficient online car marketplace.
 
 
 ## API Reference
