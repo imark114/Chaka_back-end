@@ -4,15 +4,15 @@
 
 ## API Reference
 
-#### Get all items
+#### Get items
 
 ```http
-  GET /api/items
+  GET https://chaka-back-end.onrender.com/car/list/
 ```
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `https://chaka-back-end.onrender.com/car/list/` | `Json` | `Fetch All the Cars` |
+| Id | Title | description | Drving mood | speed | Manufacture Date | Price | Brand |
+| :-------- | :------- | :----| :-----| :-----| :-----| :-----| :-----|
+| `1` | `Corolla x` | `A masterful combination of style, power, sporty handling and comfort.` | `Auto` | `250` | `2014-05-02` | `21000` |  Corolla |
 
 #### Get Specific item
 
