@@ -12,7 +12,7 @@
 
 | Id | Title | description | Drving mood | speed | Manufacture Date | Price | Brand |
 | :-------- | :------- | :----| :-----| :-----| :-----| :-----| :-----|
-| `1` | `Corolla x` | `A masterful combination of style, power, sporty handling and comfort.` | `Auto` | `250` | `2014-05-02` | `21000` |  Corolla |
+| `1` | Corolla x | A masterful combination of style, power, sporty handling and comfort. | Auto | 250 | 2014-05-02 | 21000 |  Corolla |
 
 #### Get Specific item
 
