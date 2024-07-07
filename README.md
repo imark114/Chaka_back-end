@@ -34,4 +34,4 @@
     All other APIs are for authenticated users
 
 ## 🛠 Build With
-Django, Django REST Framework
+Django, Django REST Framework, SQLite
